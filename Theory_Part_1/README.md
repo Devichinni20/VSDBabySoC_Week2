@@ -45,7 +45,7 @@ A **System on a Chip (SoC)** is essentially a complete computing system built in
 
 <details>
 <summary>📸 Click to view architecture</summary>
-<img src="" alt="SoC Architecture" width="700">
+<img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/0b5f3e4de87b8f3b063ca802d2f3453d7038b465/Theory_Part_1/Images/Screenshot%202025-10-01%20204256.png" alt="SoC Architecture" width="700">
 </details>
 
 ### 💡 Why SoCs Matter
@@ -170,3 +170,4 @@ VSDBabySoC/
 ├── results/               # Waveforms and output data
 ├── LICENSE
 └── README.md
+

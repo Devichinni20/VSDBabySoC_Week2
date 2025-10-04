@@ -43,10 +43,8 @@ A **System on a Chip (SoC)** is essentially a complete computing system built in
 | **DSP** | Processes audio and video efficiently |
 | **Power Management** | Controls voltage and power distribution |
 
-<details>
-<summary>📸 Click to view architecture</summary>
+### 📸 SoC Architecture
 <img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/0b5f3e4de87b8f3b063ca802d2f3453d7038b465/Theory_Part_1/Images/Screenshot%202025-10-01%20204256.png" alt="SoC Architecture" width="700">
-</details>
 
 ### 💡 Why SoCs Matter
 
@@ -68,11 +66,9 @@ SoCs can be broadly categorized based on their design intent and application:
 | **Microprocessor-based SoC** | Designed for high-level processing and multitasking | Smartphones, tablets |
 | **Application-Specific SoC** | Optimized for targeted high-performance tasks | AI accelerators, GPUs |
 
-<details>
-<summary>📸 SoC Design Flow</summary>
+### 📸 SoC Design Flow
 <img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20204519.png" alt="SoC Design Flow" width="700">
-<img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20204800.png" alt="SoC Design Flow" width="700">
-</details>
+<img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20204800.png" alt="SoC Design Flow 2" width="700">
 
 ---
 
@@ -94,10 +90,8 @@ SoCs can be broadly categorized based on their design intent and application:
 2. **Data Processing** – RVMYTH updates the `r17` register with values.  
 3. **Analog Output** – DAC converts digital data into an analog waveform for external output.
 
-<details>
-<summary>📸 VSDBabySoC Block Diagram</summary>
+### 📸 VSDBabySoC Block Diagram
 <img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20210517.png" alt="VSDBabySoC Block Diagram" width="700">
-</details>
 
 ---
 
@@ -111,10 +105,8 @@ A **Phase-Locked Loop (PLL)** synchronizes an internal oscillator’s output fre
 - **Loop Filter (LF)** – Smoothens the phase error signal  
 - **Voltage-Controlled Oscillator (VCO)** – Adjusts frequency to maintain lock
 
-<details>
-<summary>📸 PLL Block Diagram</summary>
+### 📸 PLL Block Diagram
 <img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20211339.png" alt="PLL Block Diagram" width="700">
-</details>
 
 ### ⚙️ Why PLLs Are Crucial in SoCs
 
@@ -171,5 +163,3 @@ VSDBabySoC/
 ├── results/               # Waveforms and output data
 ├── LICENSE
 └── README.md
-
-

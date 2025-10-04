@@ -150,7 +150,7 @@ Drag these signals:
 * `RV_TO_DAC[9:0]` → 10-bit data bus
 * `OUT` → DAC output
 
-(Insert your waveform image here)
+
 ![Waveform ](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_02_30.png)
 
 
@@ -163,7 +163,7 @@ Open VCD in GTKWave, then:
 * Select `OUT` → Right-click → Data Format → Analog (Step)
 * Add `CLK`, `reset`, `RV_TO_DAC[9:0]` for reference
 
-(Insert your DAC images here)
+
 ![DAC Analog](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_06_27.png)
 
 
@@ -192,6 +192,7 @@ Open VCD in GTKWave, then:
 
 
 ✅ Next Step: Add post-synthesis workflow, timing analysis, and corresponding waveforms for complete documentation.
+
 
 
 

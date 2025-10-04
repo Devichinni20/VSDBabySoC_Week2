@@ -82,6 +82,7 @@ pip install pyyaml click sandpiper-saas
 # 4️⃣ Convert TLV → Verilog
 sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
 ```
+![](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_15_37_38.png)
 
 ✅ Output: `rvmyth.v` in `src/module/`.
 
@@ -127,6 +128,8 @@ cd output/pre_synth_sim
 ```
 
 * `-DPRE_SYNTH_SIM`: Enables pre-synthesis macros
+
+ ![]( https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_03_07.png)
 * Generates `pre_synth_sim.vcd` for GTKWave
 
 </details>
@@ -148,7 +151,8 @@ Drag these signals:
 * `OUT` → DAC output
 
 (Insert your waveform image here)
-![Waveform Example](Images/your_waveform_image.png)
+![Waveform ](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_02_30.png)
+
 
 ---
 
@@ -160,8 +164,8 @@ Open VCD in GTKWave, then:
 * Add `CLK`, `reset`, `RV_TO_DAC[9:0]` for reference
 
 (Insert your DAC images here)
-![DAC Analog](Images/your_analog_waveform1.png)
-![DAC Analog](Images/your_analog_waveform2.png)
+![DAC Analog](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_06_27.png)
+
 
 ---
 
@@ -185,19 +189,11 @@ Open VCD in GTKWave, then:
 
 ---
 
-## 🧩 Summary
 
-* Set up environment and project structure
-* Convert TL-Verilog → Verilog using SandPiper-SaaS
-* Run pre-synthesis simulation
-* Analyze digital and analog DAC outputs in GTKWave
-* Understand pre- vs post-synthesis simulation goals
 
 ✅ Next Step: Add post-synthesis workflow, timing analysis, and corresponding waveforms for complete documentation.
 
-```
 
-This version is ready to paste directly into `README.md` on GitHub. It preserves collapsible sections, code blocks, tables, images, and formatting.  
 
-If you want, I can also **add GitHub-friendly badges and folder icons** to make it look more professional. Do you want me to do that?
-```
+
+

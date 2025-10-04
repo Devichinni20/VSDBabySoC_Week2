@@ -70,7 +70,8 @@ SoCs can be broadly categorized based on their design intent and application:
 
 <details>
 <summary>📸 SoC Design Flow</summary>
-<img src="Theory_Part_1/Images/Screenshot 2025-10-01 204256.png" alt="SoC Design Flow" width="700">
+<img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20204519.png" alt="SoC Design Flow" width="700">
+<img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20204800.png" alt="SoC Design Flow" width="700">
 </details>
 
 ---
@@ -95,7 +96,7 @@ SoCs can be broadly categorized based on their design intent and application:
 
 <details>
 <summary>📸 VSDBabySoC Block Diagram</summary>
-<img src="your-image-link-here" alt="VSDBabySoC Block Diagram" width="700">
+<img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20210517.png" alt="VSDBabySoC Block Diagram" width="700">
 </details>
 
 ---
@@ -112,7 +113,7 @@ A **Phase-Locked Loop (PLL)** synchronizes an internal oscillator’s output fre
 
 <details>
 <summary>📸 PLL Block Diagram</summary>
-<img src="your-image-link-here" alt="PLL Block Diagram" width="700">
+<img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20211339.png" alt="PLL Block Diagram" width="700">
 </details>
 
 ### ⚙️ Why PLLs Are Crucial in SoCs
@@ -135,11 +136,11 @@ A **DAC** transforms digital (binary) signals into analog voltage or current —
 
 1. **Weighted Resistor DAC**  
    Converts digital input using resistors of different values.  
-   <img src="your-image-link-here" alt="Weighted Resistor DAC" width="600">
+   <img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20222017.png" alt="Weighted Resistor DAC" width="600">
 
 2. **R-2R Ladder DAC**  
    Simplifies design using repeating resistor structures.  
-   <img src="your-image-link-here" alt="R-2R Ladder DAC" width="600">
+   <img src="https://github.com/Devichinni20/VSDBabySoC_Week2/blob/b421c661a2a97e0a55f35acaef937e436df157e5/Theory_Part_1/Images/Screenshot%202025-10-01%20222210.png" alt="R-2R Ladder DAC" width="600">
 
 ### 🧩 In VSDBabySoC
 
@@ -170,4 +171,5 @@ VSDBabySoC/
 ├── results/               # Waveforms and output data
 ├── LICENSE
 └── README.md
+
 

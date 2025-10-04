@@ -2,7 +2,7 @@
 # ⚙️ VSD Hardware Design Program — VSDBabySoC
 
 A hands-on guide for **VSDBabySoC**, a RISC-V-based open-source SoC integrating the **RVMYTH core**, **PLL**, and **DAC** modules.  
-Covers project setup, TL-Verilog to Verilog conversion, simulation, waveform analysis, and DAC output visualization.
+Covers project setup, TL-Verilog to Verilog conversion, simulation, waveform analysis, and DAC output visualization..
 
 ---
 
@@ -192,6 +192,7 @@ Open VCD in GTKWave, then:
 
 
 ✅ Next Step: Add post-synthesis workflow, timing analysis, and corresponding waveforms for complete documentation.
+
 
 
 

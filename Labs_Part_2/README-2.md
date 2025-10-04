@@ -248,12 +248,52 @@ To verify **functional equivalence**, compare the GTKWave outputs from pre-synth
 
 ---
 
-## Notes & Best Practices
+---
 
-* Always perform **pre-synthesis simulation first** to catch RTL errors early.
-* Use **post-synthesis simulation** to verify timing and gate-level behavior.
-* Keep include files and standard cell models up-to-date to avoid compilation issues.
-* Document any modifications to standard libraries for reproducibility.
+## 🏁 **Conclusion: **
+
+### ✅ **Key Outcome**
+
+- **The SoC is functionally correct**
+  - The CPU core (**RVMYTH**), **PLL**, and **DAC** interact seamlessly.  
+  - Clock generation, signal flow, and synchronization operate as intended.
+
+- **Synthesis preserved functionality**
+  - Logic was successfully mapped to **Sky130 standard cells**.  
+  - Optimization maintained behavior without altering logical correctness.
+
+- **The SoC is now gate-level ready**
+  - The synthesized netlist is ready for:
+    - **Static Timing Analysis (STA)**
+    - **Place & Route**
+    - **Final GDSII fabrication**
+
+- **The design flow is fully verified end-to-end**
+  - Demonstrated a **complete open-source ASIC design flow**:  
+    **RTL → Synthesis → Post-Synthesis Simulation**
+
+---
+
+### 💡 **In Simpler Words**
+
+We have effectively **built and verified a miniature open-source RISC-V SoC**, integrating:
+
+- A **RISC-V CPU core (RVMYTH)**  
+- A **PLL** for stable clock generation  
+- A **DAC** for digital-to-analog signal conversion  
+
+All using **open-source EDA tools** like **Yosys**, **Icarus Verilog**, and **GTKWave** with **Sky130 technology**.
+
+---
+
+### 🧩 **Final Verification Insight**
+
+By observing **matching pre- and post-synthesis waveforms**, you have proven that:
+
+> My design is **functionally stable**, **logically sound**, and **synthesis-ready** for real-world hardware realization.
+
+---
+
 
 ```
 

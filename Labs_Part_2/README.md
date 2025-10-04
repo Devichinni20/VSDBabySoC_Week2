@@ -2,7 +2,7 @@
 # ⚙️ VSD Hardware Design Program — VSDBabySoC
 
 A hands-on guide for **VSDBabySoC**, a RISC-V-based open-source SoC integrating the **RVMYTH core**, **PLL**, and **DAC** modules.  
-Covers project setup, TL-Verilog to Verilog conversion, simulation, waveform analysis, and DAC output visualization..
+Covers project setup, TL-Verilog to Verilog conversion, simulation, waveform analysis, and DAC output visualization.
 
 ---
 
@@ -63,9 +63,6 @@ ls src/module/
 
 The RVMYTH core is in TL-Verilog (rvmyth.tlv) and must be converted to `.v` for simulation.
 
-<details> 
-<summary>Conversion Steps 🔧</summary>
-
 ```bash
 # 1️⃣ Install virtual environment & pip
 sudo apt update
@@ -82,6 +79,7 @@ pip install pyyaml click sandpiper-saas
 # 4️⃣ Convert TLV → Verilog
 sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
 ```
+
 ![](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_15_37_38.png)
 
 ✅ Output: `rvmyth.v` in `src/module/`.
@@ -102,16 +100,11 @@ Deactivate when done:
 deactivate
 ```
 
-</details>
-
 ---
 
 ## 🧠 Simulation Workflow
 
 ### 🔹 Pre-Synthesis Simulation
-
-<details> 
-<summary>Click to view commands</summary>
 
 ```bash
 cd ~/Desktop/vsdflow/VLSI/VSDBabySoC/
@@ -128,11 +121,9 @@ cd output/pre_synth_sim
 ```
 
 * `-DPRE_SYNTH_SIM`: Enables pre-synthesis macros
-
- ![]( https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_03_07.png)
 * Generates `pre_synth_sim.vcd` for GTKWave
 
-</details>
+![](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_03_07.png)
 
 ---
 
@@ -150,9 +141,7 @@ Drag these signals:
 * `RV_TO_DAC[9:0]` → 10-bit data bus
 * `OUT` → DAC output
 
-
-![Waveform ](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_02_30.png)
-
+![Waveform](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_02_30.png)
 
 ---
 
@@ -163,9 +152,7 @@ Open VCD in GTKWave, then:
 * Select `OUT` → Right-click → Data Format → Analog (Step)
 * Add `CLK`, `reset`, `RV_TO_DAC[9:0]` for reference
 
-
 ![DAC Analog](https://github.com/Devichinni20/VSDBabySoC_Week2/blob/6f70c22b76289cf1da0980ae590a11851c3fa5f7/Labs_Part_2/Images/VirtualBox_opensource_tool_ubuntu_02_10_2025_16_06_27.png)
-
 
 ---
 
@@ -189,12 +176,7 @@ Open VCD in GTKWave, then:
 
 ---
 
-
-
 ✅ Next Step: Add post-synthesis workflow, timing analysis, and corresponding waveforms for complete documentation.
-
-
-
 
 
 
